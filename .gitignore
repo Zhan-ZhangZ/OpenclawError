@@ -12,3 +12,8 @@ __pycache__/
 # Node
 node_modules/
 dist/
+
+# Codex Skills & Agent Configs
+codex-skills/
+codex-skills.zip
+.agents/
