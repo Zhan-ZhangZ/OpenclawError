@@ -1,19 +1,12 @@
-# Ignore all JSON files containing credentials or tokens
-*.json
+# Ignore everything
+*
 
-# System files
+# But not the .gitignore itself
+!.gitignore
+
+# Allow the openclaw directory (and everything inside it)
+!openclaw/
+!openclaw/**
+
+# Still ignore system files everywhere
 .DS_Store
-Thumbs.db
-
-# Python
-__pycache__/
-*.pyc
-
-# Node
-node_modules/
-dist/
-
-# Codex Skills & Agent Configs
-codex-skills/
-codex-skills.zip
-.agents/
